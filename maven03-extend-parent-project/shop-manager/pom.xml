@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
+<!--        父工程坐标-->
         <groupId>com.fengxin</groupId>
         <artifactId>maven03-extend-parent-project</artifactId>
         <version>1.0-SNAPSHOT</version>
@@ -15,6 +16,8 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
     </dependencies>
+    <!-- 子工程的坐标 -->
+    <!-- 如果子工程坐标中的groupId和version与父工程一致，那么可以省略 -->
     <artifactId>shop-manager</artifactId>
 
 

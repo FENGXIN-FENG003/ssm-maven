@@ -11,6 +11,12 @@
     <groupId>com.fengxin</groupId>
     <artifactId>maven03-extend-parent-project</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <!--打包方式
+    默认：jar
+    jar指的是普通的java项目打包方式！ 项目打成jar包！
+    war指的是web项目打包方式！项目打成war包！
+    pom不会讲项目打包！这个项目作为父工程，被其他工程聚合或者继承
+    -->
     <packaging>pom</packaging>
     <modules>
 <!--        Maven 聚合是指将多个项目组织到一个父级项目中，通过触发父工程的构建,统一按顺序触发子工程构建的过程-->
